@@ -4,6 +4,20 @@ A hierarchical trace viewer for LangSmith execution traces. Navigate through LLM
 
 ![React](https://img.shields.io/badge/React-18-blue) ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue) ![Tailwind](https://img.shields.io/badge/Tailwind-3-blue)
 
+## Screenshots
+
+### Full trace tree with all nodes expanded
+![Trace tree overview](screenshots/1.png)
+
+### LLM run detail — ChatOpenAI with messages, model config, and token usage
+![LLM run detail](screenshots/2.png)
+
+### Filtered by type: retriever — showing only retriever nodes with ancestor context
+![Retriever filter](screenshots/3.png)
+
+### Filtered by type: parser — JsonOutputKeyToolsParser with parsed query output
+![Parser filter](screenshots/4.png)
+
 ## Quick Start
 
 ```bash
